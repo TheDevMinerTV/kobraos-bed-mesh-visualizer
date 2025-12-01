@@ -1,0 +1,7 @@
+name = "ks1-bedmesh"
+main = "worker.js"
+compatibility_date = "2024-12-15"
+
+# Cloudflare Workers configuration for static site
+[site]
+bucket = "."

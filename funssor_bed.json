@@ -1,0 +1,43 @@
+{
+	"bed_mesh default": {
+		"algo": "bicubic",
+		"max_x": "235",
+		"max_y": "235",
+		"mesh_x_pps": "2",
+		"mesh_y_pps": "2",
+		"min_x": "15",
+		"min_y": "15",
+		"points": "0.052292, -0.041250, -0.063542, -0.006458, 0.055417\n-0.042708, -0.036875, -0.033333, 0.037708, 0.053750\n-0.061875, -0.077292, -0.057708, 0.073750, 0.138333\n-0.055833, -0.050833, 0.020208, 0.124167, 0.203333\n0.013125, -0.055000, -0.025625, 0.147292, 0.277083",
+		"tension": "0.2",
+		"version": "1",
+		"x_count": "5",
+		"y_count": "5"
+	},
+	"extruder": {
+		"control": "pid",
+		"nozzle_diameter": "0.40",
+		"nozzle_material": "hardened_steel",
+		"pid_Kd": "35.327",
+		"pid_Ki": "10.048",
+		"pid_Kp": "37.682"
+	},
+	"heater_bed": {
+		"control": "pid",
+		"pid_Kd": "252.117",
+		"pid_Ki": "2.161",
+		"pid_Kp": "46.688"
+	},
+	"input_shaper": {
+		"shaper_freq_x": "44.6",
+		"shaper_freq_y": "61.4",
+		"shaper_type_x": "ei",
+		"shaper_type_y": "2hump_ei"
+	},
+	"leviQ3": {
+		"auto_zoffset_on_off": "1",
+		"bed_temp_cfg": "65.000000"
+	},
+	"probe": {
+		"z_offset": "-0.1850"
+	}
+}
